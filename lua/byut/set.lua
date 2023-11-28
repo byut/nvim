@@ -38,6 +38,12 @@ local options = {
     hlsearch = true, -- when there is a previous search pattern, highlight all its matches
 }
 
+-- disable providers
+vim.g.loaded_python3_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_node_provider = 0
+vim.g.loaded_perl_provider = 0
+
 for key, value in pairs(options) do
     vim.opt[key] = value
 end
