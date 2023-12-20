@@ -17,6 +17,7 @@ telescope.setup({
     },
     pickers = {
         find_files = {
+            previewer = false,
             respect_gitignore = true,
             disable_devicons = true,
             hidden = false,
